@@ -1,4 +1,4 @@
-# Bone Marrow Cell Classification Using CNN
+﻿# Bone Marrow Cell Classification Using CNN
 
 A deep learning project for classifying bone marrow cell types from microscopic images using Convolutional Neural Networks (CNNs). The project includes both **binary classification** (Benign vs Malignant) and **multi-class categorical classification** (8 cell types).
 
@@ -80,7 +80,7 @@ Bone Marrow/
 │       ├── classification_report_best_threshold.csv
 │       └── test_metrics.csv
 ├── Categorical/
-│   ├── bone_marrow_Catagorical_classification_Gaurav.ipynb  # Multi-class notebook
+│   ├── bone_marrow_Catagorical_classification.ipynb  # Multi-class notebook
 │   └── Final Results/
 │       ├── accuracy_loss_curves_08class.png
 │       ├── confusion_matrix_08class.png
@@ -115,7 +115,7 @@ pip install tensorflow numpy pandas matplotlib seaborn scikit-learn
 ### Run the Notebooks
 
 1. Open `Binary/bone_marrow_binary_classification.ipynb` for binary classification
-2. Open `Categorical/bone_marrow_Catagorical_classification_Gaurav.ipynb` for multi-class classification
+2. Open `Categorical/bone_marrow_Catagorical_classification.ipynb` for multi-class classification
 
 ---
 
